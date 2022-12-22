@@ -1,0 +1,37 @@
+body{
+   
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    min-width: 1024px;
+}
+#image-one-text{
+    color: #00171F;
+
+}
+#image-one-tex{
+    color: whitesmoke;
+
+}
+.btn{
+    background-color: red;
+}
+.btm{
+    background-color: #00171F;
+    color: white;
+}
+
+#card-id{
+    box-shadow: 1px 5px 8px 5px rgba(0, 0, 0, 0.2);
+    margin:auto 10px 4px;
+    padding: 20px;
+    float: left;
+    position: relative;
+    left:18px;
+    border: none;
+}
+body{
+    background-color: white;
+  }

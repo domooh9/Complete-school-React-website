@@ -1,0 +1,52 @@
+.me-aut{
+    transition: all 0.2s;
+    color:black;
+}
+.me-aut:hover{
+   border-bottom: 2px solid yellow;
+ }
+.nav-bar{
+    background: #87CEEB;
+    height: auto;
+}
+#hom{
+    background: linear-gradient(to right, #00171F 70%, red 30%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 15px
+}
+#home{
+    position: relative;
+    top: 14px;
+}
+.box{
+  background-color: #00171F;
+  color: #87CEEB;
+}
+.header{
+     font-size: 14px;
+    color: white !important;
+}
+
+   
+
+#nav-dropdown a:hover {background-color: #ddd;}
+
+#collasible-nav-dropdown:hover #nav-dropdown {display: block;}
+
+
+#collasible-nav-dropdown:hover {background-color: #3e8e41;}
+
+#nav-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  body{
+    background-color: white;
+  }
