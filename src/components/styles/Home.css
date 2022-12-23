@@ -9,6 +9,8 @@ body{
 }
 #image-one-text{
     color: #00171F;
+    position: relative;
+    bottom: 70px;
 
 }
 #image-one-tex{
@@ -41,3 +43,59 @@ body{
 body{
     background-color: white;
   }
+  .first{
+    position: relative;
+    bottom: 150px;
+  }
+ 
+    .slider{
+        @media (min-width: 200px) and (max-width: 1199.98px) {
+    }
+  }
+  #pp{
+     font-family: 'Tangerine', serif;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0 0 4px;
+    text-shadow: 4px 4px 4px #aaa;
+  }
+  #pi{
+    border-bottom: 5px solid #87CEEB;
+    align-items: center;
+    text-align: center;
+   color: #003459;
+   font-family: 'Tangerine', serif;
+  }
+  .container{
+    background-color: whitesmoke;
+   
+  }
+  .btt{
+    background-color: #003459;
+    color:white;
+    width: 240px;
+    height: 250px;
+    font-size: 19px;
+   margin: 5px;
+   padding: 10px;
+   position: relative;
+    left: 70px;
+  }
+  .card-section{
+    position:relative;
+    top: 40px;
+  }
+  .card-one{
+    background-image: url("https://cdn.standardmedia.co.ke/images/friday/xgtdgj38un3xq61bce64a22960.jpg");
+  }
+  .card-two{
+    background-image: url("https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80");
+  }
+  .card-three{
+    background-image: url("https://images.unsplash.com/photo-1594312915251-48db9280c8f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  }
+  .card-four{
+    background-image: url("https://cdn.standardmedia.co.ke/images/monday/chess_atieno_and_ok61c0b9d2f25ce.jpg");
+  }
+  

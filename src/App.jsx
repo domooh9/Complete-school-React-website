@@ -13,20 +13,7 @@ function App() {
 
   return (
     <>
-    {/* <nav className="navbar navbar-default" role="navigation"> */}
-{/* <div className="navbar-header">
-
-<ul> */}
-        {/* <li>
-        <Link to="/">Home</Link>
-        </li>
-        <li>
-    <Link to="/post">Post</Link>
-        </li>
-        </ul> 
-      </div>
-    </nav> */}
-  <Navbar className="nav-bar" fixed="top" collapseOnSelect expand="lg" bg="blue" >  
+  <Navbar className="nav-bar" sticky="top" collapseOnSelect expand="lg" bg="blue" >  
         <Container>  
           <Navbar.Brand id="home"href="/"><p id="hom">VENMAR SCHOOL KISUMU </p>
            <p className='header'><i>Today's Learners Tomorrow's Leaders</i>

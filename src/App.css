@@ -1,13 +1,17 @@
 .me-aut{
     transition: all 0.2s;
     color:black;
+    border-right: 1px solid #000000;
 }
 .me-aut:hover{
    border-bottom: 2px solid yellow;
  }
 .nav-bar{
-    background: #87CEEB;
+    background-color: #87CEEB;
     height: auto;
+    justify-content: space-between;
+    
+    
 }
 #hom{
     background: linear-gradient(to right, #00171F 70%, red 30%);
@@ -20,14 +24,16 @@
 #home{
     position: relative;
     top: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
 }
 .box{
   background-color: #00171F;
   color: #87CEEB;
 }
 .header{
-     font-size: 14px;
-    color: white !important;
+     font-size: 11px;
+    color: grey !important;
 }
 
    
@@ -47,6 +53,16 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-  body{
-    background-color: white;
+  
+ 
+  @media (min-width: 200px) and (max-width: 1199.98px) {
+    #nav{
+   margin: 2px;
+    }
+  }
+  
+  @media screen and (min-width: 300px) {
+    body {
+      background-color: lavender;
+    }
   }
