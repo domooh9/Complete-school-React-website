@@ -13,11 +13,13 @@ function App() {
 
   return (
     <>
+    <h3><p id="hom">VENMAR SCHOOL KISUMU</p><p className='header'><i>Today's Learners Tomorrow's Leaders</i>
+            </p></h3>
   <Navbar className="nav-bar" sticky="top" collapseOnSelect expand="lg" bg="blue" >  
         <Container>  
-          <Navbar.Brand id="home"href="/"><p id="hom">VENMAR SCHOOL KISUMU </p>
+          {/* <Navbar.Brand id="home"href="/"><p id="hom">VENMAR SCHOOL KISUMU </p>
            <p className='header'><i>Today's Learners Tomorrow's Leaders</i>
-            </p></Navbar.Brand> 
+            </p></Navbar.Brand>  */}
           
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />  
           <Navbar.Collapse id="responsive-navbar-nav">  
