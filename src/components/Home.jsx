@@ -14,7 +14,7 @@ function Home() {
         <Carousel.Item interval={1500}>
           <img
             className="d-block w-100"
-src="pictures/imag.jpeg"
+src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             alt="Image One"
           />
           <Carousel.Caption>
@@ -26,7 +26,7 @@ src="pictures/imag.jpeg"
         <Carousel.Item interval={500}>
           <img
             className="d-block w-100"
-src="pictures/images.jpeg"
+src="https://images.unsplash.com/photo-1468779036391-52341f60b55d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1068&q=80"
             alt="Image Two"
           />
           <Carousel.Caption>
@@ -39,7 +39,7 @@ src="pictures/images.jpeg"
     </div>
     <section className="card-section">
     <Card id="card-id" style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="pictures/im.jpg" />
+      <Card.Img variant="top" src="https://cdn.standardmedia.co.ke/images/friday/xgtdgj38un3xq61bce64a22960.jpg" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -53,7 +53,7 @@ src="pictures/images.jpeg"
       </Card.Body>
     </Card>
     <Card id="card-id" style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="pictures/im.jpg" />
+      <Card.Img variant="top" src="https://cdn.standardmedia.co.ke/images/monday/chess_atieno_and_ok61c0b9d2f25ce.jpg" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -67,7 +67,7 @@ src="pictures/images.jpeg"
       </Card.Body>
     </Card>
     <Card id="card-id" style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="pictures/im.jpg" />
+      <Card.Img variant="top" src="https://images.unsplash.com/photo-1594312915251-48db9280c8f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -81,7 +81,7 @@ src="pictures/images.jpeg"
       </Card.Body>
     </Card>
     <Card id="card-id" style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="pictures/im.jpg" />
+      <Card.Img variant="top" src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
