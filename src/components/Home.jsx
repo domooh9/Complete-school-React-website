@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 
+
  import './styles/Home.css'
 
 function Home() {
