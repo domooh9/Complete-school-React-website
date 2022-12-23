@@ -5,7 +5,7 @@ import {Nav, Navbar, Container, NavDropdown} from 'react-bootstrap';
 import './App.css'
 import Home from './components/Home'
 import Post from './components/Post'
-import Inquiries from './components/Inquiries';
+// import Inquiries from './components/Inquiries';
 // import Footer from './components/Footer'
 
 function App() {
@@ -60,7 +60,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/post' element={<Post />} />
-      <Route path='/inquiries' element={<Inquiries />} />
+      {/* <Route path='/inquiries' element={<Inquiries />} /> */}
     </Routes>
 {/* <Footer /> */}
     </>

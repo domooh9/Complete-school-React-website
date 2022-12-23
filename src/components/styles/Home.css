@@ -20,7 +20,13 @@ body{
 }
 .btm{
     background-color: #00171F;
-    color: white;
+    color: red;
+    position: relative;
+    left: 45px;
+    bottom: -15px;
+   font-style: italic;
+   font-size: 15px;
+
 }
 
 #card-id{
