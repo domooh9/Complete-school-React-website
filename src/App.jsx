@@ -9,12 +9,13 @@ import Post from './components/Post'
 import Inquiries from './components/Inquiries';
 // import Footer from './components/Footer'
 
+
 function App() {
  
 
   return (
     <>
-    
+  
   <Navbar className="nav-bar" fixed="top" collapseOnSelect expand="lg" bg="blue" >
     <div>
   <h4><p id="hon">VENMAR SCHOOL KISUMU</p><p className='heade'><i>Today's Learners Tomorrow's Leaders</i>
@@ -23,7 +24,16 @@ function App() {
           
         <Container>  
         <Icon className='ion' icon="bi:telephone-fill" />
-        <Icon className='ionn' icon="logos:whatsapp-icon" />
+        <a
+        href="https://wa.me/2348100000000"
+        className="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <p className='talk'>Need assistance?<p className='tal'>Contact Us.</p></p>
+      <Icon className='whatsapp_float ' icon="logos:whatsapp-icon" />
+        </a>
+        
           {/* <Navbar.Brand id="home"href="/"><p id="hom">VENMAR SCHOOL KISUMU </p>
            <p className='header'><i>Today's Learners Tomorrow's Leaders</i>
             </p></Navbar.Brand>  */}

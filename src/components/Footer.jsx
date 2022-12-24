@@ -39,10 +39,12 @@ return (
         </div>
 		<Column>
 			
-       <p>© Copyright 2022 by</p>  Venmar School Kisumu, KE
+      
 		</Column>
 		</Row>
+		<p className="copyright">© Copyright 2022 by Venmar School Kisumu, KE</p> 
 	</Container>
+
 	</Box>
 );
 };
