@@ -1,27 +1,26 @@
 .me-aut{
     transition: all 0.2s;
-    color:black;
+    color:#00171F;
     border-right: 1px solid #000000;
 }
 .me-aut:hover{
-   border-bottom: 2px solid yellow;
+   border-bottom: 2px solid navy;
  }
 .nav-bar{
     background-color: #87CEEB;
     height: auto;
     justify-content: space-between;
-    
-    
+     
 }
-#hom{
-    background: linear-gradient(to right, #00171F 70%, red 30%);
+#hon{
+    background: linear-gradient(to right, #00171F 69.5%, red 30.5%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
     top: 15px;
     word-spacing: -1px;
-    font-weight: bold;
+     font-weight: bold;
     font-family: "Rokkitt";
   
 }
@@ -32,13 +31,23 @@
     
 }
 .box{
-  background-color: #00171F;
-  color: #87CEEB;
+ color: #00171F;
+ position: relative;
+ right: 84px;
+ border-right: 1px solid #000000;
+ 
 }
-.header{
+.box:hover{
+  border-bottom: 2px solid navy;
+  
+}
+.box:nth-child(2){
+  border: none;
+}
+.heade{
      font-size: 11px;
-    color: grey !important;
-    font-family: "Sacramento";
+    color: white !important;
+    font-family: "Carattere";
 }
 
    
@@ -48,7 +57,7 @@
 #collasible-nav-dropdown:hover #nav-dropdown {display: block;}
 
 
-#collasible-nav-dropdown:hover {background-color: #3e8e41;}
+#collasible-nav-dropdown:hover {background-color: #87CEEB;}
 
 #nav-dropdown {
     display: none;
@@ -57,6 +66,7 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    
   }
   
  
@@ -71,4 +81,28 @@
       background-color: lavender;
     }
   }
+ #slid{
+  width: 100%;
+ }
+ h4{
+  position: relative;
+  left: 310px;
+  bottom: 10px;
+ }
+ .ion{
+  position:relative;
+  left: 800px;
+  font-size: 25px;
+  color: navy;
+ bottom: 70px;
+ border: none;
+ }
+ .ionn{
+  position:relative;
+  left: 700px;
+  font-size: 25px;
+ bottom: 70px;
+ border: none;
+ 
+}
  

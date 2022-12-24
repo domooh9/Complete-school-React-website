@@ -61,15 +61,17 @@ body{
     text-shadow: 4px 4px 4px #aaa;
   }
   #pi{
-    border-bottom: 5px solid #87CEEB;
+   
     align-items: center;
     text-align: center;
    color: #003459;
    font-family: 'Tangerine', serif;
+  
   }
-  .container{
+  .containe{
     background-color: whitesmoke;
-   
+   width: 100%;
+   height: 550px;
   }
   .btt{
     background-color: #003459;
@@ -98,4 +100,25 @@ body{
   .card-four{
     background-image: url("https://cdn.standardmedia.co.ke/images/monday/chess_atieno_and_ok61c0b9d2f25ce.jpg");
   }
-  
+  .text-center{
+    font-family: Herr Von Muellerhoff;
+    font-size: 13px;
+    position: relative;
+   left: 40%;
+   color: red;
+   top: -20px;
+   border-bottom: 1px solid #87CEEB;
+  }
+  .container{
+    background-color: whitesmoke;
+    width: 100%;
+    max-width: 700px;
+    height: 60px;
+    position:relative;
+    top: 60px;
+    margin-right: 250px;
+    font-family:'Times New Roman', Times, serif;
+  }
+  #bttt{
+    background:#00171F;
+  }

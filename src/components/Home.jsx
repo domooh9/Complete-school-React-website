@@ -2,14 +2,13 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
-
-
+import Footer from "./Footer";
  import './styles/Home.css'
 
 function Home() {
   return (
 <div>
-<div className="slider" style={{ display: 'block', width: 1300, padding: 30 }}>
+<div id="slid" className="slider" style={{ display: 'block', width: 1300, padding: 30 }}>
        <Carousel>
         <Carousel.Item interval={1500}>
           <img
@@ -37,9 +36,9 @@ src="https://images.unsplash.com/photo-1468779036391-52341f60b55d?ixlib=rb-4.0.3
         </Carousel.Item>
       </Carousel>
     </div>
-    <div className="container">
+    <div className="containe">
   <h1><p id="pi">Welcome to</p> <p id="pp">Venmar Primary School Kisumu</p></h1>
-   <h7 className="text-center">GeeksForGeeks</h7>
+   <h7 className="text-center"><i>Today's Learners Tomorrows's Leaders</i></h7>
   <p className="text-reset">
   By building on and strengthening of the learners' 
   potentials and aspirations, we will be able to achieve the desired goals.
@@ -48,9 +47,9 @@ src="https://images.unsplash.com/photo-1468779036391-52341f60b55d?ixlib=rb-4.0.3
   challenge of the fast changing world.
       </p>
       <button className="btt">Visit Us today</button>
+      <button id="bttt" className="btt">Visit Us today</button>
       <button className="btt">Visit Us today</button>
-      <button className="btt">Visit Us today</button>
-      <button className="btt">Visit Us today</button>
+      <button id="bttt" className="btt">Visit Us today</button>
       </div>
     
     <section className="card-section">
@@ -85,7 +84,7 @@ src="https://images.unsplash.com/photo-1468779036391-52341f60b55d?ixlib=rb-4.0.3
     <Card className="card-three"  id="card-id" style={{ width: '18rem', height: '20rem'}}>
       {/* <Card.Img variant="top" src="https://images.unsplash.com/photo-1594312915251-48db9280c8f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" /> */}
       <Card.Body>
-        <Card.Title style={{ color: 'white'  }}>Our Mission</Card.Title>
+        <Card.Title style={{ color: 'white'  }} >Our Mission</Card.Title>
         <Card.Text>
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
@@ -108,7 +107,7 @@ src="https://images.unsplash.com/photo-1468779036391-52341f60b55d?ixlib=rb-4.0.3
         </Card.Body>
     </Card>
     </section>
-  
+    <Footer />
 </div>
   );
 }

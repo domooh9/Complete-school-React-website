@@ -11,6 +11,7 @@
   "dependencies": {
     "@craco/craco": "^7.0.0",
     "bootstrap": "^5.2.2",
+    "bootstrap-icons": "^1.10.2",
     "cdbreact": "^1.5.4",
     "mdb-react-ui-kit": "^5.1.0",
     "mdbreact": "^5.2.0",
@@ -20,6 +21,7 @@
     "react-router-dom": "^6.4.3"
   },
   "devDependencies": {
+    "@iconify/react": "^4.0.1",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
     "@vitejs/plugin-react": "^2.2.0",
