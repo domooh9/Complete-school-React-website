@@ -37,8 +37,10 @@ body{
     padding: 20px;
     float: left;
     position: relative;
-    left:18px;
+    left:48px;
     border: none;
+    margin-left: 20px;
+   
 }
 
   .first{
@@ -57,6 +59,26 @@ body{
     border-radius: 5px;
     padding: 0 0 4px;
     text-shadow: 4px 4px 4px #aaa;
+    font-weight: bold;
+    color: #00171F;
+   
+  }
+  #pp:hover{
+    color:#043f69;
+      }
+  .pppip{
+    border-bottom: 2px solid green;
+    font-family: 'Tangerine', serif;
+  margin-left: 200px;
+  margin-top: 80px;
+    border-radius: 0;
+    padding: 0 0 4px;
+    text-shadow: 4px 4px 4px #aaa;
+    font-weight: bold;
+    color: #00171F;
+  }
+  .pppip:hover{
+color:#043f69;
   }
   #pi{
    
@@ -64,6 +86,7 @@ body{
     text-align: center;
    color: #003459;
    font-family: 'Tangerine', serif;
+   font-weight: bold;
   
   }
   .containe{
@@ -74,13 +97,24 @@ body{
   .btt{
     background-color: #003459;
     color:azure;
-    width: 240px;
-    height: 250px;
+    width: 80px;
+    
     font-size: 19px;
    margin: 5px;
    padding: 10px;
    position: relative;
     left: 70px;
+  }
+  img{
+    width: 450px;
+    height: 450px;
+    float: right;
+    margin-left: 100px;
+  }
+  .text-rest{
+    display: inline-block;
+    position: relative;
+    bottom: 90px;
   }
   .card-section{
     position:relative;
@@ -89,20 +123,18 @@ body{
   .card-one{
     background-image: url("https://cdn.standardmedia.co.ke/images/friday/xgtdgj38un3xq61bce64a22960.jpg");
   }
-  .card-two{
+ .card-two{
     background-image: url("https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80");
   }
   .card-three{
     background-image: url("https://images.unsplash.com/photo-1594312915251-48db9280c8f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
   }
-  .card-four{
-    background-image: url("https://cdn.standardmedia.co.ke/images/monday/chess_atieno_and_ok61c0b9d2f25ce.jpg");
-  }
+
   .text-center{
     font-family: Herr Von Muellerhoff;
     font-size: 13px;
     position: relative;
-   left: 40%;
+   left: 10%;
    color: red;
    top: -20px;
    border-bottom: 1px solid #87CEEB;
@@ -120,3 +152,8 @@ body{
   #bttt{
     background:#00171F;
   }
+  #card-id:hover{
+    color: white;
+    border: 3px solid #043f69;
+  }
+  

@@ -1,9 +1,9 @@
 
- 
 .contant{
     border-right: 2px solid #000000; 
     position: relative;
     left: 280px;
+    bottom: 0;
 }
 .contant:nth-child(3){
     border:none; 
@@ -21,3 +21,20 @@
     text-align: center;
    
 }
+/* body {
+    font-size: 16px;
+  }
+   */
+  /* Styles for screens that are 600px or wider */
+  /* @media screen and (min-width: 600px) {
+    body {
+      font-size: 18px;
+    }
+  }
+   */
+  /* Styles for screens that are 800px or wider */
+  /* @media screen and (min-width: 800px) {
+    body {
+      font-size: 20px;
+    }
+  } */

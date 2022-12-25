@@ -7,6 +7,7 @@ import Card from 'react-bootstrap/Card';
 import Collapse from 'react-bootstrap/Collapse';
 
 
+
 function About() {
     const [open, setOpen] = useState(false);
 return (
@@ -74,7 +75,19 @@ return (
           </div>
         </Collapse>
       </div>
-      <Footer />
+       <Card className="text-center" style={{ width: '18rem' }}>
+      <Card.Img src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Card image" />
+      <Card.ImgOverlay>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the bulk
+          of the card's content.
+        </Card.Text>
+        <Card.Text>Last updated 3 mins ago</Card.Text>
+      </Card.ImgOverlay>
+    </Card>
+ 
+    <Footer />
     </>
   );
 }

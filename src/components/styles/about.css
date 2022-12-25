@@ -48,3 +48,27 @@ bottom: 150px;
     color:#003459;
     font-family: "Cormorant SC"; 
 }
+/* body {
+    font-size: 16px;
+  } */
+  
+  /* Styles for screens that are 600px or wider */
+  /* @media screen and (min-width: 600px) {
+    body {
+      font-size: 18px;
+    }
+  } */
+  
+  /* Styles for screens that are 800px or wider */
+  /* @media screen and (min-width: 800px) {
+    body {
+      font-size: 20px;
+    }
+  } */
+  
+  /* Styles for screens that are 1024px or wider */
+  /* @media screen and (min-width: 1024px) {
+    body {
+      font-size: 22px;
+    }
+  } */
