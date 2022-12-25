@@ -40,9 +40,7 @@ body{
     left:18px;
     border: none;
 }
-body{
-    background-color: white;
-  }
+
   .first{
     position: relative;
     bottom: 150px;
@@ -75,7 +73,7 @@ body{
   }
   .btt{
     background-color: #003459;
-    color:white;
+    color:azure;
     width: 240px;
     height: 250px;
     font-size: 19px;
@@ -110,7 +108,7 @@ body{
    border-bottom: 1px solid #87CEEB;
   }
   .container{
-    background-color: whitesmoke;
+    background-color: azure;
     width: 100%;
     max-width: 700px;
     height: 60px;

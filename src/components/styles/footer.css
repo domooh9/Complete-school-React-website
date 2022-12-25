@@ -1,27 +1,5 @@
-/* .section{
 
- position: relative;
  
- color:#87CEEB;
-}
-.contact-details{
-    clear: both;
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
-position: relative;
-left: -220px;
-}
-.mx-auto{
-    align-items: center;
-    position: relative;
-top: -20px;
-}
-#name{
-   color:black;
-   font-weight:bold;
-}
- */
 .contant{
     border-right: 2px solid #000000; 
     position: relative;
@@ -33,6 +11,7 @@ top: -20px;
 #footer{
     width: 100%;
     bottom: 0;
+    clear: both;
 }
 .copyright{
     background-color: #00171F;

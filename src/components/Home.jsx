@@ -19,7 +19,7 @@ src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-4.0.3
           <Carousel.Caption>
            <h1 id="image-one-text"><b>Venmar Primary School-Kisumu</b></h1>
             <h3><p><em id="image-one-tex">Extra curriculumn activities</em></p></h3>
-            <button className='btn'>Learn more</button>
+            <button className='btn'>Learn more</button> 
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={500}>
@@ -47,7 +47,7 @@ src="https://images.unsplash.com/photo-1468779036391-52341f60b55d?ixlib=rb-4.0.3
   challenge of the fast changing world.
       </p>
       <button className="btt">Visit Us today</button>
-      <button id="bttt" className="btt">Visit Us today</button>
+      <button id="bttt" className="btt">Learn More About Us</button>
       <button className="btt">Visit Us today</button>
       <button id="bttt" className="btt">Visit Us today</button>
       </div>

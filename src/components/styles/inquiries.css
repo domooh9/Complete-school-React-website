@@ -11,9 +11,7 @@ body{
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background-image: url('https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
-  background-repeat: no-repeat;
-  background-size: 100%;
+  
   
 }
 .cotainer{
@@ -144,4 +142,9 @@ form .user-details .input-box{
 #inpu-box{
     height: 70px;
     border-bottom: 2px solid #003459;
+}
+.sect{
+  background-image: url('https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }

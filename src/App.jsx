@@ -5,8 +5,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import {Nav, Navbar, Container, NavDropdown} from 'react-bootstrap'; 
 import './App.css'
 import Home from './components/Home'
-import Post from './components/Post'
 import Inquiries from './components/Inquiries';
+import About from './components/About';
 // import Footer from './components/Footer'
 
 
@@ -17,14 +17,20 @@ function App() {
     <>
   
   <Navbar className="nav-bar" fixed="top" collapseOnSelect expand="lg" bg="blue" >
-    <div>
+    <div className='hdd'>
   <h4><p id="hon">VENMAR SCHOOL KISUMU</p><p className='heade'><i>Today's Learners Tomorrow's Leaders</i>
             </p></h4> 
             </div>
           
         <Container>  
-        <Icon className='ion' icon="bi:telephone-fill" />
-        <a
+        
+        {/* <Icon className='ion' icon="bi:telephone-fill" /> */}
+        <Icon className='ion' icon="ic:baseline-facebook" />
+        <Icon className='ion' icon="mdi:linkedin" />
+        <Icon className='ion' icon="icon-park:twitter" />
+        <Icon className='ion' icon="ic:baseline-email" />
+        
+       <a
         href="https://wa.me/2348100000000"
         className="whatsapp_float"
         target="_blank"
@@ -34,15 +40,11 @@ function App() {
       <Icon className='whatsapp_float ' icon="logos:whatsapp-icon" />
         </a>
         
-          {/* <Navbar.Brand id="home"href="/"><p id="hom">VENMAR SCHOOL KISUMU </p>
-           <p className='header'><i>Today's Learners Tomorrow's Leaders</i>
-            </p></Navbar.Brand>  */}
-          
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />  
           <Navbar.Collapse id="responsive-navbar-nav">  
             <Nav className="me-auto">  
               <Nav.Link id="ho" className="me-aut" href="/">Home</Nav.Link>  
-            <Nav.Link className="me-aut" href="/post">About</Nav.Link>  
+            <Nav.Link className="me-aut" href="/about">About</Nav.Link>  
               <Nav.Link className="me-aut" href="#pricing">Contact</Nav.Link> 
               <NavDropdown className="me-aut" title="Programmes" id="collasible-nav-dropdown"> 
               <div className='nav-dropdown'>
@@ -66,7 +68,7 @@ function App() {
       </Navbar>
     <Routes>
       <Route path='/' element={<Home />} />
-      <Route path='/post' element={<Post />} />
+      <Route path='/about' element={<About />} />
       <Route path='/inquiries' element={<Inquiries />} />
     </Routes>
 

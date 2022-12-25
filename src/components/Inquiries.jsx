@@ -8,6 +8,7 @@ function Inquiries() {
     
       return (
         <div>
+          <div className="sect">
  <div className="cotainer">
     <div className="title">Inquire</div>
     <div className="cotent">
@@ -36,6 +37,7 @@ function Inquiries() {
         </div>
       </form>
     </div>
+        </div>
         </div>
         <Footer />
         </div>

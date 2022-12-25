@@ -47,7 +47,7 @@
 .heade{
      font-size: 11px;
     color: white !important;
-    font-family: "Carattere";
+    font-family: "Rouge Script";
 }
 
    
@@ -79,6 +79,7 @@
   @media screen and (min-width: 300px) {
     body {
       background-color: lavender;
+      
     }
   }
  #slid{
@@ -86,16 +87,17 @@
  }
  h4{
   position: relative;
-  left: 310px;
+  left: 200px;
   bottom: 10px;
  }
  .ion{
   position:relative;
-  left: 800px;
-  font-size: 25px;
+  left: 650px;
+  font-size: 26px;
   color: navy;
  bottom: 70px;
  border: none;
+width: 100px;
  }
  .whatsapp_float {
   position: fixed;
@@ -143,6 +145,5 @@
 .tal{
   
   color: navy;
-  
-}
+ }
  

@@ -1,0 +1,50 @@
+#foo{
+margin-top: 110px;
+font-size: 12px;
+display: grid;
+color: azure;
+margin-right: 10px;
+padding: 60px;
+position: relative;
+right: 100px;
+bottom: 150px;
+
+}
+#cont{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+   margin-top: -20px;
+}
+#vision{
+   margin-top: 450px;
+   font-size: small;
+   margin-left: 400px;
+   margin-right: auto;
+   position: relative;
+   right: 250px;
+   text-align: center;
+}
+#vision-h{
+    font-family: "Original Surfer";
+    color: #1bb8f7;
+    }
+    #ven{
+        border-bottom: 2px solid red;
+        font-family: "Original Surfer";
+    }
+#visi{
+    border-bottom: 2px solid #003459;
+    font-family: "Original Surfer";
+    color: red;
+    width: 50px;
+}
+#mii{
+    font-family: "Cormorant SC"; 
+    font-size: 15px;
+    color: #003459;
+}
+#about-ven{
+    color:#003459;
+    font-family: "Cormorant SC"; 
+}
